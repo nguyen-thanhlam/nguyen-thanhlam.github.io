@@ -1,10 +1,9 @@
 ---
-title: "Quarto Academic, PhD"
-description-meta: "Quarto Academic Website Template adapted by Dr. Gang He"
-image: "files/images/placeholder4.JPG"
+title: "Thanh Lam Nguyen"
+description-meta: "Academic Website of Thanh Lam Nguyen"
+image: "files/images/avatar.jpg"  
 page-navigation: false
 toc: false
-#sidebar: false
 page-layout: full
 
 about:
@@ -22,26 +21,22 @@ about:
       target: _blank
     - icon: envelope
       text: E-mail
-      href: mailto:email@gmail.com    
+      href: mailto:lamthanhng2806@gmail.com    
     - icon: linkedin
       text: LinkedIn
-      href: https://linkedin.com
-      target: _blank
-    - icon: youtube
-      text: YouTube
-      href: https://www.youtube.com     
-      target: _blank 
-    - text: "{{< ai orcid >}} ORCID"   # use academic icons, "" are needed, you also need to install the fontawesome extension
-      href: https://orcid.org
-      target: _blank
-    - text: "{{< ai clarivate >}} Web of Science"
-      href: https://www.webofscience.com  
-      target: _blank
-    - text: "{{< ai scopus >}} Scopus"
-      href: https://www.scopus.com
-      target: _blank
+      href: https://linkedin.com/in/thanhlamm2806/
+      target: _blank    
+    #- text: "{{< ai orcid >}} ORCID"   # use academic icons, "" are needed, you also need to install the fontawesome extension
+    #  href: https://orcid.org
+    #  target: _blank
+    #- text: "{{< ai clarivate >}} Web of Science"
+    #  href: https://www.webofscience.com  
+    #  target: _blank
+    #- text: "{{< ai scopus >}} Scopus"
+    #  href: https://www.scopus.com
+    #  target: _blank
     - text: "{{< ai google-scholar >}} Google Scholar"
-      href: https://scholar.google.com
+      href: https://scholar.google.com/citations?user=E_xdG40AAAAJ&hl=en
       target: _blank
 #    - text: "{{< ai researchgate >}} Research Gate"
 #      href: https://www.researchgate.net
@@ -51,7 +46,6 @@ listing:   # Comment the listing section and delete corresponding lines in the i
   - id: recent-posts
     contents: 
       - posts
-      - posts/post-links.yml
     exclude:
       title: ""
     type: grid
@@ -65,27 +59,17 @@ listing:   # Comment the listing section and delete corresponding lines in the i
       - "title asc"
 ---
 
-:::{#hero-heading}
-
-I'm a [Quarto Academeic Website Template](https://github.com/drganghe/quarto-academic-website-template) adapted by [Dr. Gang He](http://drganghe.github.io).
-
-I'm a template that you can fork to build your own website with easy adaptation and deployment.
-
-I can automatically generate a neat publication list from an Excel file and enabling categories and filters.
-
-Check [Quarto Academic Website Examples and Tips](https://drganghe.github.io/quarto-academic-site-examples.html) and [README.md](https://github.com/drganghe/quarto-academic-website-template/blob/main/README.md) for more detailed instructions.
-
 ## Experience
 
-- Researcher, Univerisity
-- Consultant, Company
-- Intern, Institute
+- Intern, EPILOGY Team at University Paris-Est Créteil
+- Research Assistant, Oxford Univeristy Clinical Research Unit
+
 
 ## Education
 
-- PhD, Univerisity
-- Master, Univerisity
-- Bachelor, Univerisity
+- Master 2 in Public Health in Statistics, Modelling and Health Data Science, Sorbonne Univerisity
+- Master 1 in Public Health, Univerisity Paris-Saclay
+- Bachelor in Public Health, Univerisity of Medicine and Pharmacy at Ho Chi Minh City, Vietnam
 
 :::
 

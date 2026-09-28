@@ -78,7 +78,7 @@ website:
   
   reader-mode: true
 
-  draft-mode: unlinked
+  # draft-mode: unlinked
   
   open-graph: true
   

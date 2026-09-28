@@ -1,4 +1,4 @@
-- section: Selected Work
+#- section: Selected Work
   authors: "Helveston, John, **Gang He**\\*, and Michael Davidson"
   year: 2022
   date: 2022-10-26
@@ -19,7 +19,7 @@
   invitedpresentation: "[Peking University](https://cese.pku.edu.cn/images/content/2024-03/20240325151929637875.png) | [Tsinghua University](https://mp.weixin.qq.com/s/c_Z0RHwzkjziq-QvdUzs-g) | [Harvard University](https://www.belfercenter.org/event/energy-policy-seminar-michael-davidson-decoupling-china-clean-tech) (M.D.) | ITIF (J.H.) | [Climate Change Economics Forum](https://mp.weixin.qq.com/s/teDhroPPbaA6z1pVU2JrwA)"
   categories: [2022, selected, peer-reviewed, award, highly-cited, hot-paper, nature-series, supply-chain, solar, united-states, china, germany]
 
-- section: Peer-reviewed Journal Paper
+# - section: Peer-reviewed Journal Paper
   authors: "**He, Gang**\\*, Jiang Lin\\*, Froylan Sifuentes, Xu Liu, Nikit Abhyankar, and Amol Phadke\\*"
   year: 2020
   date: 2020-05-15

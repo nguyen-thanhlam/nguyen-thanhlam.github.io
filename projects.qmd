@@ -20,9 +20,6 @@ listing:
 #  categories: true
 #  sort-ui: true
 #  filter-ui: true
-  contents: 
-#    - projects/ 
-    - projects.yml 
 ---
 
 
