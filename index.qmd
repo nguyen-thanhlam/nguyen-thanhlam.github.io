@@ -11,14 +11,6 @@ about:
   template: trestles
   image-width: 70%
   links:
-    - icon: sun
-      text: Lab
-      href: https://www.github.com
-      target: _blank
-    - icon: globe
-      text: Uprofile
-      href: https://baruch.cuny.edu
-      target: _blank
     - icon: envelope
       text: E-mail
       href: mailto:lamthanhng2806@gmail.com    
@@ -26,9 +18,9 @@ about:
       text: LinkedIn
       href: https://linkedin.com/in/thanhlamm2806/
       target: _blank    
-    #- text: "{{< ai orcid >}} ORCID"   # use academic icons, "" are needed, you also need to install the fontawesome extension
-    #  href: https://orcid.org
-    #  target: _blank
+    - text: "{{< ai orcid >}} ORCID"   # use academic icons, "" are needed, you also need to install the fontawesome extension
+      href: https://orcid.org/my-orcid?orcid=0009-0002-2456-1593
+      target: _blank
     #- text: "{{< ai clarivate >}} Web of Science"
     #  href: https://www.webofscience.com  
     #  target: _blank

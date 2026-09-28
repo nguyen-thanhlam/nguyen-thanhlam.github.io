@@ -10,7 +10,7 @@ author-meta: "Thanh Lam Nguyen"
 
 website:
   title: "Thanh Lam Nguyen"
-  image: "/files/images/avatar.jpeg"
+  image: "files/images/avatar.jpeg"
   description: "Academic Website of Thanh Lam Nguyen"
  
   navbar:
@@ -48,7 +48,7 @@ website:
 
     right: 
       - text: CV
-        href: files/profiles/CV.pdf
+      #  href: files/profiles/CV.pdf
       - icon: github
         href: https://github.com/nguyen-thanhlam
         target: _blank
