@@ -21,7 +21,7 @@ title-block-banner: false
 
 **Distance:** Swim 1.9km - Bike 90km - Run 21.1km
 
-This was my first Ironman race ever, I am so excited.
+This will be my first Ironman race ever, I am so excited.
 
 :::
 :::
