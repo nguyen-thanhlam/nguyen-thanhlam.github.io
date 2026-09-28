@@ -1,7 +1,7 @@
 ---
 title: "Thanh Lam Nguyen"
 description-meta: "Academic Website of Thanh Lam Nguyen"
-image: "files/images/avatar.jpg"  
+image: "files/images/avatar.jpeg"  
 page-navigation: false
 toc: false
 page-layout: full
