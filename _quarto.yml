@@ -5,13 +5,13 @@ project:
     - python xlsx_to_yml.py  # Automatically generate publications.yml from publications.xlsx
     
 # Meta
-description-meta: "Quarto Academic Website Template adapted by Dr. Gang He"
-author-meta: "Dr. Gang He"
+description-meta: "Academic Website of Thanh Lam Nguyen"
+author-meta: "Thanh Lam Nguyen"
 
 website:
-  title: "Quarto Academic"
-  image: "https://quarto.org/quarto.png"
-  description: "Quarto Academic Website Template adapted by Dr. Gang He"
+  title: "Thanh Lam Nguyen"
+  image: "/files/images/avatar.jpeg"
+  description: "Academic Website of Thanh Lam Nguyen"
  
   navbar:
     background: light  # You can change the background color here
@@ -39,22 +39,22 @@ website:
             href: projects.qmd                                
       - text: Teaching # Comment the Teaching part out to remove the Teaching page
         href: teaching.qmd
-      - text: Outreach
-        menu:        
-        - text: Presentations
-          href: posts.qmd#category=presentation                   
-      - text: Group   # Comment the Group part out to remove the Group page
-        href: people.qmd
+      #- text: Outreach
+        #menu:        
+        #- text: Presentations
+          #href: posts.qmd#category=presentation                   
+      #- text: Group   # Comment the Group part out to remove the Group page
+        #href: people.qmd
 
     right: 
       - text: CV
-        href: files/nsf-biosketch.pdf
+        href: files/profiles/CV.pdf
       - icon: github
-        href: https://github.com/drganghe/quarto-academic-website-template
+        href: https://github.com/nguyen-thanhlam
         target: _blank
-      - text: "{{< fa brands bluesky >}}"
-        href: https://bsky.app
-        target: _blank      
+     # - text: "{{< fa brands bluesky >}}"
+     #   href: https://bsky.app
+     #   target: _blank      
       - icon: rss
         href: posts.xml
         target: _blank
@@ -62,14 +62,11 @@ website:
   page-navigation: true
   
   page-footer: 
-    left: "[Your Name](http://www.github.com) &copy; <script>document.write(new Date().getFullYear())</script>" 
-    center: "Build on [Quarto Academic Website Template](https://github.com/drganghe/quarto-academic-website-template) adapted by [Dr. Gang He](http://drganghe.github.io)"
+    left: "Thanh Lam Nguyen(http://www.github.com) &copy; <script>document.write(new Date().getFullYear())</script>" 
+    center: "Built with [Quarto](https://quarto.org)"
     right:  
       - icon: github
-        href: https://github.com/drganghe/quarto-academic-website-template
-        target: _blank
-      - text: "{{< fa brands bluesky >}}" 
-        href: https://bsky.app
+        href: https://github.com/nguyen-thanhlam
         target: _blank
       - icon: rss
         href: posts.xml
@@ -83,22 +80,10 @@ website:
 
   draft-mode: unlinked
   
-  repo-url: https://github.com/drganghe/quarto-academic-website-template
-#  repo-actions: [edit, issue, source]
-  
   open-graph: true
   
   twitter-card: true 
-#  card-style: summary      
   
-  site-url: "https://drganghe.github.io/quarto-academic-website-template"
-  
-  google-analytics:
-    tracking-id: ""  # Please delete or replace with your own tracking ID
-    anonymize-ip: true 
-
-bibliography: references.bib  # Add references.bib to the root folder to enable the bibliography function
-
 format:
   html:
     theme: cosmo
@@ -112,6 +97,5 @@ format:
     link-external-icon: false
     link-external-newwindow: true
     email-obfuscation: javascript
-    link-external-filter: '^(?:http:|https:)\/\/drganghe\.github\.io\/custom'
     include-in-header: "files/includes/_academic.qmd"
 
