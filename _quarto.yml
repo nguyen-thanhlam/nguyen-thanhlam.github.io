@@ -48,7 +48,7 @@ website:
 
     right: 
       - text: CV
-      #  href: files/profiles/CV.pdf
+        href: files/profiles/CV.pdf
       - icon: github
         href: https://github.com/nguyen-thanhlam
         target: _blank
