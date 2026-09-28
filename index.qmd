@@ -54,7 +54,7 @@ listing:   # Comment the listing section and delete corresponding lines in the i
       - "title asc"
 ---
 
-Hello! I am a Master's student in Public Health – Statistics, Modelling, and Health Data Science (SMSDS) at Sorbonne Université.
+Hello! I am a Master's student in Public Health - Statistics, Modelling, and Health Data Science (SMSDS) at Sorbonne Université.
 
 I am also an active member of MIDVIE, a Vietnamese infectious disease mathematical modelling community established through a collaboration between the Oxford University Clinical Research Unit (OUCRU) and the Ho Chi Minh City Center for Disease Control (HCDC).
 

@@ -1,12 +1,15 @@
 [
   {
-    "listing": "/pub-listing.html",
-    "items": []
-  },
-  {
-    "listing": "/posts.html",
+    "listing": "/projects.html",
     "items": [
-      "/posts/news-title/index.html"
+      "/404.html",
+      "/contact.html",
+      "/index.html",
+      "/people.html",
+      "/posts/news-title/index.html",
+      "/posts.html",
+      "/publications.html",
+      "/teaching.html"
     ]
   },
   {
@@ -14,19 +17,9 @@
     "items": []
   },
   {
-    "listing": "/projects.html",
+    "listing": "/posts.html",
     "items": [
-      "/404.html",
-      "/contact.html",
-      "/index.html",
-      "/people.html",
-      "/posts/event-title/index.html",
-      "/posts/news-title/index.html",
-      "/posts/paper-title/index.html",
-      "/posts.html",
-      "/pub-listing.html",
-      "/publications.html",
-      "/teaching.html"
+      "/posts/news-title/index.html"
     ]
   }
 ]
