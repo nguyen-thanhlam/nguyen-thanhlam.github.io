@@ -21,24 +21,26 @@ website:
 #        href: index.qmd
       - text: About
         menu:
-          - text: News
-            href: posts.qmd#category=news
-          - text: Events
-            href: posts.qmd#category=event      
+          - text: Daily life
+            href: posts.qmd
+          #- text: Daily life
+          #  href: posts.qmd#category=event      
           - text: Contact
             href: contact.qmd             
       - text: Research
         menu:
-          - text: Publications Listing  # Automatically generated from publications.xlsx
-            href: pub-listing.qmd
+          #- text: Publications Listing  # Automatically generated from publications.xlsx
+          #  href: pub-listing.qmd
           - text: Publications  # Manually curated list of publications
-            href: publications.qmd            
-          - text: Selected Papers
-            href: posts.qmd#category=paper
-          - text: Grants
-            href: projects.qmd                                
-      - text: Teaching # Comment the Teaching part out to remove the Teaching page
-        href: teaching.qmd
+            href: publications.qmd
+          - text: Teaching
+            href: teaching.qmd            
+          #- text: Selected Papers
+          #  href: posts.qmd#category=paper
+          #- text: Grants
+          #  href: projects.qmd                                
+      #- text: Teaching # Comment the Teaching part out to remove the Teaching page
+      #  href: teaching.qmd
       #- text: Outreach
         #menu:        
         #- text: Presentations
@@ -55,9 +57,9 @@ website:
      # - text: "{{< fa brands bluesky >}}"
      #   href: https://bsky.app
      #   target: _blank      
-      - icon: rss
-        href: posts.xml
-        target: _blank
+     # - icon: rss
+     #   href: posts.xml
+     #   target: _blank
   
   page-navigation: true
   

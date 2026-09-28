@@ -1,67 +1,33 @@
 ---
 title: "Teaching"
-subtitle: "I teach."
 title-block-banner: false
 ---
 
 
-## Class 1
+## Systematic Review & Literature Search Methodologies
 
 ::: {.grid}
 
-::: {.g-col-12 .g-col-md-2}
-![](files/images/placeholder1.jpg)
+::: {.g-col-12 .g-col-md-5}
+![](files/images/teaching.png)
 
 :::
 
-::: {.g-col-12 .g-col-md-10}
+::: {.g-col-12 .g-col-md-7}
 
-[Fall 2024](https://www.google.com), &nbsp; [Fall 2023](https://www.google.com)
+**Date:** November 2023 | **Role:** Trainer
 
-Class 1 introduction.
+**Host Organization:** Ho Chi Minh City Center for Disease Control (HCDC) & Oxford University Clinical Research Unit (OUCRU)
 
-:::
+**Target Audience:** Public health practitioners and staff members at HCDC (approx. 30 participants)
 
-:::
+**Topic:** *Systematic Review Methodology & Scientific Research*
 
-
-## Class 2
-
-::: {.grid}
-
-::: {.g-col-12 .g-col-md-2}
-![](files/images/placeholder2.JPG)
+- Delivered a training session on systematic review methodology and data analysis in health research for public health staff at HCDC under the strategic collaboration framework between HCDC and OUCRU.
+- Guided participants through the fundamentals of conducting systematic literature reviews, search strategies, and evidence synthesis.
 
 :::
-
-::: {.g-col-12 .g-col-md-10}
-
-[Spring 2025](https://www.google.com), &nbsp; [Fall 2023](https://www.google.com)
-
-Class 2 introduction.
-
 :::
 
-:::
-
-
-## Class 3
-
-::: {.grid}
-
-::: {.g-col-12 .g-col-md-2}
-![](files/images/placeholder3.JPG)
-
-:::
-
-::: {.g-col-12 .g-col-md-10}
-
-[Spring 2025](https://www.google.com), &nbsp; [Spring 2024](https://www.google.com)
-
-Class 3 introduction. 
-
-:::
-
-:::
 
 

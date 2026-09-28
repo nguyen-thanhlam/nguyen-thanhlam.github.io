@@ -1,19 +1,50 @@
 ---
-title: "News item"
-description: "About new item"
-author: "News"
-date: "2024-06-24"
-categories: [news]
-image: "/files/images/placeholder3.JPG"
-#css: /custom.css
-#draft: true
+title: "Running"
+title-block-banner: false
 ---
 
 
-## Summary
+## Running events
 
-About the news
+### IRONMAN 70.3 VICHY
 
-<!--Include social share buttons-->
+::: {.grid}
 
-{{< include /files/includes/_socialshare.qmd >}}
+::: {.g-col-12 .g-col-md-5}
+![](/files/images/ironman.jpeg)
+
+:::
+
+::: {.g-col-12 .g-col-md-7}
+
+**Date:** August 2027 | **Location:** Vichy
+
+**Distance:** Swim 1.9km - Bike 90km - Run 21.1km
+
+This was my first Ironman race ever, I am so excited.
+
+:::
+:::
+
+### HOKA 10KM PARIS
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-5}
+![](/files/images/hoka.jpeg)
+
+:::
+
+::: {.g-col-12 .g-col-md-7}
+
+**Date:** November 2025 | **Location:** Paris
+
+**Distance:** 10 km | **Chip Time:** 46:58 (Pace: ~4:41 min/km)
+
+This was my first running race in France and also my PB with a sub-50 finish.
+
+:::
+:::
+
+
+

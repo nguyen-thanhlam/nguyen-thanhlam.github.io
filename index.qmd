@@ -30,6 +30,9 @@ about:
     - text: "{{< ai google-scholar >}} Google Scholar"
       href: https://scholar.google.com/citations?user=E_xdG40AAAAJ&hl=en
       target: _blank
+    - text: "{{< ai strava >}} Strava"
+      href: https://strava.app.link/2Lv6TY6dO6b
+      target: _blank
 #    - text: "{{< ai researchgate >}} Research Gate"
 #      href: https://www.researchgate.net
 #      target: _blank
@@ -39,7 +42,7 @@ listing:   # Comment the listing section and delete corresponding lines in the i
     contents: 
       - posts
     exclude:
-      title: ""
+      title: "Running"
     type: grid
     max-items: 3
 #    image-height: 150px
@@ -51,11 +54,15 @@ listing:   # Comment the listing section and delete corresponding lines in the i
       - "title asc"
 ---
 
-## Experience
+Hello! I am a Master's student in Public Health – Statistics, Modelling, and Health Data Science (SMSDS) at Sorbonne Université.
 
-- Intern, EPILOGY Team at University Paris-Est Créteil
-- Research Assistant, Oxford Univeristy Clinical Research Unit
+I am also an active member of MIDVIE, a Vietnamese infectious disease mathematical modelling community established through a collaboration between the Oxford University Clinical Research Unit (OUCRU) and the Ho Chi Minh City Center for Disease Control (HCDC).
 
+When I’m not digging into data or models, you’ll probably find me at the gym, in the pool, or out training for a triathlon.
+
+## Research Interest
+
+My research focuses on **causal inference** and **mathematical modelling**. My current work concentrates on causal inference methods, confounding control, and infectious disease dynamics.
 
 ## Education
 
@@ -63,12 +70,10 @@ listing:   # Comment the listing section and delete corresponding lines in the i
 - Master 1 in Public Health, Univerisity Paris-Saclay
 - Bachelor in Public Health, Univerisity of Medicine and Pharmacy at Ho Chi Minh City, Vietnam
 
+## Experience
 
-<!-- Delete the following section and delete corresponding lines in the yaml part to remove the recent posts -->
-## Recent Posts
-Check out the latest &nbsp;[Papers](posts.qmd#category=paper)&nbsp;, &nbsp;[News](posts.qmd#category=news)&nbsp;, &nbsp;[Events](posts.qmd#category=event)&nbsp;, and &nbsp;[More »](/posts.qmd)
+- Intern, EPILOGY Team at University Paris-Est Creteil
+- Research Assistant, Mathematical Modelling Group, Oxford University Clinical Research Unit
+- Research Assistant, Departments of Internal and General Medicine, University of Medicine and Pharmacy at HCMC
+- Youth Science Ambassador, Public Engagement & Communication Group, Oxford University Clinical Research Unit
 
-:::{#recent-posts}
-:::
-
-<p align="right">[All Posts »](/posts.qmd)</p>

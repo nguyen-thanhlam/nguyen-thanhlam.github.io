@@ -6,19 +6,8 @@ title-block-banner: false
 
 <center>
 
-**Quarto Academic**
+**Thanh Lam Nguyen**
 
-School
-
-College
-
-University
-
-Address: 
-
-Phone: 
-
-E-mail: 
-
+Sorbonne University, France
 
 </center>

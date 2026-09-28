@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Thanh Lam Nguyen">
-<meta name="description" content="Posts about papers, events, news, and more">
+<meta name="description" content="Academic Website of Thanh Lam Nguyen">
 
 <title>Thanh Lam Nguyen - What’s New &amp; Updated</title>
 <style>
@@ -73,9 +73,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-subtitle','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author","listing-subtitle","listing-image","listing-description","listing-categories"],
+      searchColumns: ["listing-title","listing-author","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -118,13 +118,9 @@ https://badge.dimensions.ai/
 
 <link rel="stylesheet" href="styles.css">
 <meta property="og:title" content="Thanh Lam Nguyen - What’s New &amp; Updated">
-<meta property="og:description" content="Posts about papers, events, news, and more">
-<meta property="og:image" content="./posts/paper-title/featured.jpg">
 <meta property="og:site-name" content="Thanh Lam Nguyen">
 <meta name="twitter:title" content="Thanh Lam Nguyen - What’s New &amp; Updated">
-<meta name="twitter:description" content="Posts about papers, events, news, and more">
-<meta name="twitter:image" content="./posts/paper-title/featured.jpg">
-<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:card" content="summary">
 </head>
 
 <body class="nav-fixed">
@@ -150,12 +146,8 @@ https://badge.dimensions.ai/
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-about">    
         <li>
-    <a class="dropdown-item" href="./posts.html#category=news" rel="" target="">
- <span class="dropdown-text">News</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./posts.html#category=event" rel="" target="">
- <span class="dropdown-text">Events</span></a>
+    <a class="dropdown-item" href="./posts.html" rel="" target="">
+ <span class="dropdown-text">Daily life</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="./contact.html" rel="" target="">
@@ -169,27 +161,15 @@ https://badge.dimensions.ai/
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-research">    
         <li>
-    <a class="dropdown-item" href="./pub-listing.html" rel="" target="">
- <span class="dropdown-text">Publications Listing</span></a>
-  </li>  
-        <li>
     <a class="dropdown-item" href="./publications.html" rel="" target="">
  <span class="dropdown-text">Publications</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./posts.html#category=paper" rel="" target="">
- <span class="dropdown-text">Selected Papers</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./projects.html" rel="" target="">
- <span class="dropdown-text">Grants</span></a>
+    <a class="dropdown-item" href="./teaching.html" rel="" target="">
+ <span class="dropdown-text">Teaching</span></a>
   </li>  
     </ul>
   </li>
-  <li class="nav-item">
-    <a class="nav-link" href="./teaching.html" rel="" target="">
- <span class="menu-text">Teaching</span></a>
-  </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
@@ -198,11 +178,6 @@ https://badge.dimensions.ai/
   </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/nguyen-thanhlam" rel="" target="_blank"><i class="bi bi-github" role="img">
-</i> 
- <span class="menu-text"></span></a>
-  </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="./posts.xml" rel="" target="_blank"><i class="bi bi-rss" role="img">
 </i> 
  <span class="menu-text"></span></a>
   </li>  
@@ -224,14 +199,13 @@ https://badge.dimensions.ai/
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(3)</span></div><div class="category" data-category="event">event <span class="quarto-category-count">(1)</span></div><div class="category" data-category="news">news <span class="quarto-category-count">(1)</span></div><div class="category" data-category="paper">paper <span class="quarto-category-count">(1)</span></div><div class="category" data-category="presentation">presentation <span class="quarto-category-count">(1)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">What’s New &amp; Updated</h1>
-<p class="subtitle lead">Posts about papers, events, news, and more</p>
 </div>
 
 
@@ -263,12 +237,6 @@ https://badge.dimensions.ai/
          <option value="listing-title" data-direction="asc">
           Title
         </option>
-         <option value="listing-date-sort" data-direction="asc">
-          Date - Oldest
-        </option>
-         <option value="listing-date-sort" data-direction="desc">
-          Date - Newest
-        </option>
          <option value="listing-author" data-direction="asc">
           Author
         </option>
@@ -280,112 +248,25 @@ https://badge.dimensions.ai/
     </div>
 </div>
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="event,presentation" data-listing-date-sort="1725314400000" data-listing-file-modified-sort="1790601833730" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="0" data-listing-file-modified-sort="1790628092882" data-listing-reading-time-sort="1">
 <div class="thumbnail">
-<p><a href="./posts/event-title/index.html"> <img src="./files/images/placeholder2.JPG" class="thumbnail-image"> </a></p>
+<p><a href="./posts/news-title/index.html"> <p class="card-img-top"><img src="files\images\ironman.jpeg"  class="thumbnail-image card-img"/></p> </a></p>
 </div>
 <div class="body">
-<a href="./posts/event-title/index.html">
+<a href="./posts/news-title/index.html">
 <h3 class="no-anchor listing-title">
-Event item
+Running
 </h3>
 <div class="listing-subtitle">
 
 </div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('event'); return false;">
-event
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('presentation'); return false;">
-presentation
-</div>
-</div>
-<a href="./posts/event-title/index.html">
 <div class="listing-description">
-<p>About Event item.</p>
+<strong>Date:</strong> August 2027 | <strong>Location:</strong> Vichy
 </div>
 </a>
 </div>
 <div class="metadata">
-<a href="./posts/event-title/index.html">
-<div class="listing-date">
-Sep 3, 2024
-</div>
-<div class="listing-author">
-Event
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="news" data-listing-date-sort="1719180000000" data-listing-file-modified-sort="1790601833736" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="./posts/news-title/index.html"> <img src="./files/images/placeholder3.JPG" class="thumbnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="./posts/news-title/index.html">
-<h3 class="no-anchor listing-title">
-News item
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('news'); return false;">
-news
-</div>
-</div>
-<a href="./posts/news-title/index.html">
-<div class="listing-description">
-<p>About new item</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./posts/news-title/index.html">
-<div class="listing-date">
-Jun 24, 2024
-</div>
-<div class="listing-author">
-News
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="paper" data-listing-date-sort="-1092963600000" data-listing-file-modified-sort="1790601833739" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="./posts/paper-title/index.html"> <img src="./posts/paper-title/featured.jpg" class="thumbnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="./posts/paper-title/index.html">
-<h3 class="no-anchor listing-title">
-Can quantum-mechanical description of physical reality be considered complete?
-</h3>
-<div class="listing-subtitle">
-<em>Physical Review</em>
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('paper'); return false;">
-paper
-</div>
-</div>
-<a href="./posts/paper-title/index.html">
-<div class="listing-description">
-<p>One is thus led to conclude that the description of reality as given by a wave function is not complete.</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./posts/paper-title/index.html">
-<div class="listing-date">
-May 15, 1935
-</div>
-<div class="listing-author">
-Albert Einstein, Boris Podolsky, Nathan Rosen
-</div>
-</a>
+<a href="./posts/news-title/index.html"> </a>
 </div>
 </div>
 </div>

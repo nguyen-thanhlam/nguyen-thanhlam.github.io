@@ -76,7 +76,7 @@ ul.task-list li input[type="checkbox"] {
     const options = {
       valueNames: ['listing-image','listing-date','listing-title','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
+      searchColumns: ["listing-image"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -151,12 +151,8 @@ https://badge.dimensions.ai/
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-about">    
         <li>
-    <a class="dropdown-item" href="./posts.html#category=news" rel="" target="">
- <span class="dropdown-text">News</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./posts.html#category=event" rel="" target="">
- <span class="dropdown-text">Events</span></a>
+    <a class="dropdown-item" href="./posts.html" rel="" target="">
+ <span class="dropdown-text">Daily life</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="./contact.html" rel="" target="">
@@ -170,27 +166,15 @@ https://badge.dimensions.ai/
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-research">    
         <li>
-    <a class="dropdown-item" href="./pub-listing.html" rel="" target="">
- <span class="dropdown-text">Publications Listing</span></a>
-  </li>  
-        <li>
     <a class="dropdown-item" href="./publications.html" rel="" target="">
  <span class="dropdown-text">Publications</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./posts.html#category=paper" rel="" target="">
- <span class="dropdown-text">Selected Papers</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./projects.html" rel="" target="">
- <span class="dropdown-text">Grants</span></a>
+    <a class="dropdown-item" href="./teaching.html" rel="" target="">
+ <span class="dropdown-text">Teaching</span></a>
   </li>  
     </ul>
   </li>
-  <li class="nav-item">
-    <a class="nav-link" href="./teaching.html" rel="" target="">
- <span class="menu-text">Teaching</span></a>
-  </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
@@ -199,11 +183,6 @@ https://badge.dimensions.ai/
   </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/nguyen-thanhlam" rel="" target="_blank"><i class="bi bi-github" role="img">
-</i> 
- <span class="menu-text"></span></a>
-  </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="./posts.xml" rel="" target="_blank"><i class="bi bi-rss" role="img">
 </i> 
  <span class="menu-text"></span></a>
   </li>  
@@ -251,15 +230,18 @@ https://badge.dimensions.ai/
   <a href="https://scholar.google.com/citations?user=E_xdG40AAAAJ&amp;hl=en" class="about-link" rel="" target="_blank">
      <span class="about-link-text"><i class="ai  ai-google-scholar"></i> Google Scholar</span>
   </a>
+  <a href="https://strava.app.link/2Lv6TY6dO6b" class="about-link" rel="" target="_blank">
+     <span class="about-link-text"><i class="ai  ai-strava"></i> Strava</span>
+  </a>
 </div>
   </div>
   <div class="about-contents"><main class="content column-page" id="quarto-document-content">
-<section id="experience" class="level2">
-<h2 data-anchor-id="experience">Experience</h2>
-<ul>
-<li>Intern, EPILOGY Team at University Paris-Est Créteil</li>
-<li>Research Assistant, Oxford Univeristy Clinical Research Unit</li>
-</ul>
+<p>Hello! I am a Master’s student in Public Health – Statistics, Modelling, and Health Data Science (SMSDS) at Sorbonne Université.</p>
+<p>I am also an active member of MIDVIE, a Vietnamese infectious disease mathematical modelling community established through a collaboration between the Oxford University Clinical Research Unit (OUCRU) and the Ho Chi Minh City Center for Disease Control (HCDC).</p>
+<p>When I’m not digging into data or models, you’ll probably find me at the gym, in the pool, or out training for a triathlon.</p>
+<section id="research-interest" class="level2">
+<h2 data-anchor-id="research-interest">Research Interest</h2>
+<p>My research focuses on <strong>causal inference</strong> and <strong>mathematical modelling</strong>. My current work concentrates on causal inference methods, confounding control, and infectious disease dynamics.</p>
 </section>
 <section id="education" class="level2">
 <h2 data-anchor-id="education">Education</h2>
@@ -268,85 +250,25 @@ https://badge.dimensions.ai/
 <li>Master 1 in Public Health, Univerisity Paris-Saclay</li>
 <li>Bachelor in Public Health, Univerisity of Medicine and Pharmacy at Ho Chi Minh City, Vietnam</li>
 </ul>
-<!-- Delete the following section and delete corresponding lines in the yaml part to remove the recent posts -->
 </section>
-<section id="recent-posts" class="level2">
-<h2 data-anchor-id="recent-posts">Recent Posts</h2>
-<p>Check out the latest &nbsp;<a href="./posts.html#category=paper">Papers</a>&nbsp;, &nbsp;<a href="./posts.html#category=news">News</a>&nbsp;, &nbsp;<a href="./posts.html#category=event">Events</a>&nbsp;, and &nbsp;<a href="./posts.html">More »</a></p>
-<div id="listing-recent-posts" class="quarto-listing quarto-listing-container-grid">
+<section id="experience" class="level2">
+<h2 data-anchor-id="experience">Experience</h2>
+<ul>
+<li>Intern, EPILOGY Team at University Paris-Est Creteil</li>
+<li>Research Assistant, Mathematical Modelling Group, Oxford University Clinical Research Unit</li>
+<li>Research Assistant, Departments of Internal and General Medicine, University of Medicine and Pharmacy at HCMC</li>
+<li>Youth Science Ambassador, Public Engagement &amp; Communication Group, Oxford University Clinical Research Unit</li>
+</ul>
+
+
+</section>
+<div class="quarto-listing quarto-listing-container-grid" id="listing-recent-posts">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="event,presentation" data-listing-date-sort="1725314400000" data-listing-file-modified-sort="1790601833730" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<a href="./posts/event-title/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./files/images/placeholder2.JPG" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Event item
-</h5>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Sep 3, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="news" data-listing-date-sort="1719180000000" data-listing-file-modified-sort="1790601833736" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<a href="./posts/news-title/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./files/images/placeholder3.JPG" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-News item
-</h5>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Jun 24, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="2" data-categories="paper" data-listing-date-sort="-1092963600000" data-listing-file-modified-sort="1790601833739" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<a href="./posts/paper-title/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./posts/paper-title/featured.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Can quantum-mechanical description of physical reality be considered complete?
-</h5>
-<div class="card-subtitle listing-subtitle">
-<em>Physical Review</em>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-May 15, 1935
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
 </div>
 <div class="listing-no-matching d-none">
 No matching items
 </div>
-</div>
-<p align="right">
-<a href="./posts.html">All Posts »</a>
-</p>
-
-
-</section>
-</main></div>
+</div></main></div>
 </div>
  <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
